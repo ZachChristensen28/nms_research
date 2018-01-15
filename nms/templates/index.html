@@ -1,0 +1,8 @@
+{% extends "base.html" %} {% block body %}
+<header class="gray-container large-container">
+  <h1>Welcome to the Network Monitoring System</h1>
+  <p>You have been invited to participate in a study regarding a network monitoring system. Your participation in this study is entirely voluntary, and you may withdraw at any time.</p>
+  <p>If you would like to particpate please register.</p>
+  <a href="{% url 'accounts:signup' %}" class="btn btn-green">Register</a>
+</header>
+{% endblock %}

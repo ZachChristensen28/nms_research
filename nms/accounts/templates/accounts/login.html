@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block body %}
+<header class="gray-container">
+  <h1>Login</h1>
+</header>
+<section class="form-container">
+  <form class="form" method="post">
+    <div class="form-grid">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class="form-confirm">
+        <button type="submit" class="btn btn-green">Login</button>
+      </div>
+    </div>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,54 @@
+.gray-container {
+  background-color: #f2f2f2;
+  border: 1px solid darken(#f2f2f2, 15%);
+  border-radius: 4px;
+  padding: 15px 4%;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.large-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form {
+  margin: 20px 0;
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 40%;
+    margin-bottom: 20px;
+
+    label {
+      padding: 10px;
+    }
+
+    p {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      margin: 0;
+      text-align: right;
+    }
+
+    .form-confirm {
+      grid-column: 1 / -1;
+      justify-self: end;
+      padding: 20px;
+    }
+  }
+}
+
+.errorlist {
+  background-color: pink;
+  border: 1px solid darken(pink, 5%);
+  border-radius: 4px;
+  list-style: none;
+}

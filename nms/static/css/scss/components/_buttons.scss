@@ -1,0 +1,31 @@
+.btn {
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.2em;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #4CAF50;
+  border: 1px solid darken(#4CAF50, 10%);
+  color: $white;
+
+  &:hover {
+    background-color: darken(#4CAF50, 10%);
+  }
+}
+
+.btn-default {
+  background-color: #f2f2f2;
+  border: 1px solid darken(#f2f2f2, 15%);
+  color: inherit;
+
+  &:hover {
+    background-color: darken(#f2f2f2, 15%);
+  }
+}
