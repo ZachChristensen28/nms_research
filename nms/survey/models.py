@@ -1,6 +1,6 @@
 # SURVEY MODELS
 from django.db import models
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 # from groups.models import Group
 from django.contrib.auth import get_user_model
 User = get_user_model()
